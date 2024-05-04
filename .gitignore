@@ -1,3 +1,6 @@
 .vs/
 x64/
 bin/
+/Samples/**/*.exe
+/Samples/**/*.exp
+/Samples/**/*.lib
