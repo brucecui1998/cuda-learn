@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clock", "Samples\0_Introduc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "add", "Samples\0_Introduction\add\add.vcxproj", "{85CEC0E1-6484-4EE3-8CF3-5B72045FF704}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "saxpy", "Samples\0_Introduction\saxpy\saxpy.vcxproj", "{70B28556-C061-4F22-9C2B-8B23FD0904A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -25,6 +27,10 @@ Global
 		{85CEC0E1-6484-4EE3-8CF3-5B72045FF704}.Debug|x64.Build.0 = Debug|x64
 		{85CEC0E1-6484-4EE3-8CF3-5B72045FF704}.Release|x64.ActiveCfg = Release|x64
 		{85CEC0E1-6484-4EE3-8CF3-5B72045FF704}.Release|x64.Build.0 = Release|x64
+		{70B28556-C061-4F22-9C2B-8B23FD0904A3}.Debug|x64.ActiveCfg = Debug|x64
+		{70B28556-C061-4F22-9C2B-8B23FD0904A3}.Debug|x64.Build.0 = Debug|x64
+		{70B28556-C061-4F22-9C2B-8B23FD0904A3}.Release|x64.ActiveCfg = Release|x64
+		{70B28556-C061-4F22-9C2B-8B23FD0904A3}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,6 +39,7 @@ Global
 		{D1A45346-CAE6-4C43-AFF4-9D69A068FFE1} = {77892661-8ECC-469C-AFA1-0039C313E9D8}
 		{53201200-156E-428E-B395-261863ECAA51} = {D1A45346-CAE6-4C43-AFF4-9D69A068FFE1}
 		{85CEC0E1-6484-4EE3-8CF3-5B72045FF704} = {D1A45346-CAE6-4C43-AFF4-9D69A068FFE1}
+		{70B28556-C061-4F22-9C2B-8B23FD0904A3} = {D1A45346-CAE6-4C43-AFF4-9D69A068FFE1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D7BABF67-446E-46AF-96E5-89F91F7FBD1E}
