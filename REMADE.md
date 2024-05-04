@@ -8,7 +8,7 @@ cuda从入门到入土
 
 
 - [Exercises 3](https://developer.nvidia.com/blog/even-easier-introduction-cuda/) threadIdx.y或threadIdx.z如何让他们采取0以外的值
-- [How to Implement Performance Metrics in CUDA C/C++](https://developer.nvidia.com/blog/how-implement-performance-metrics-cuda-cc/)
+
 
 英伟达官方文档
 - [Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
@@ -17,3 +17,4 @@ cuda从入门到入土
 ## DONE
 
 - [An Even Easier Introduction to CUDA(√)](https://developer.nvidia.com/blog/even-easier-introduction-cuda/)
+- [How to Implement Performance Metrics in CUDA C/C++(√)](https://developer.nvidia.com/blog/how-implement-performance-metrics-cuda-cc/)

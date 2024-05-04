@@ -46,7 +46,14 @@ void add(int n, float *x, float *y)
 | 1 CUDA Thread    | 938.79ms   | 631ms |
 | 1 CUDA Block    | 5.0735ms   | 7ms |
 | Many CUDA Blocks    | 0.499ms  | 769us |
-| Many CUDA Blocks(仅使用命令行nvcc编译)    | 0.123ms   | 0.403ms |
+| Many CUDA Blocks(仅使用命令行nvcc编译)    | 0.213ms   | 0.403ms |
+| Many CUDA Blocks(Generate GPU Debug Information - 否)    | 0.223ms   | 0.403ms |
+
+
+TODO: 为什么仅使用命令行nvcc编译耗时比使用Visual Studio短呢？
+答：因为Visual Studio 2022默认开启了“Generate GPU Debug Information”，右键项目，点击属性-CUDA C/C++ - Device - Generate GPU Debug Information - 选择否。
+
+另外Code Generation填写自己的gpu最适合的算力，[算力查询](https://developer.nvidia.com/cuda-gpus),经查询，我的1050的算力为6.1，所以“Code Generation”栏填写compute_61,sm_61（不过实测好像这个没什么影响）
 
 ## Exercises
 
