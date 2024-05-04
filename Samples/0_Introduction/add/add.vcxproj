@@ -10,12 +10,9 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <CudaCompile Include="clock.cu" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{53201200-156E-428E-B395-261863ECAA51}</ProjectGuid>
-    <RootNamespace>clock</RootNamespace>
+    <ProjectGuid>{85CEC0E1-6484-4EE3-8CF3-5B72045FF704}</ProjectGuid>
+    <RootNamespace>add</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -60,7 +57,6 @@
     </Link>
     <CudaCompile>
       <TargetMachinePlatform>64</TargetMachinePlatform>
-      <Include>./;../../../Common</Include>
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -82,6 +78,9 @@
       <TargetMachinePlatform>64</TargetMachinePlatform>
     </CudaCompile>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <CudaCompile Include="add.cu" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 12.0.targets" />
