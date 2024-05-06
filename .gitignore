@@ -5,4 +5,4 @@ bin/
 /Samples/**/*.exp
 /Samples/**/*.lib
 *.nsys-rep
-.sqlite
+*.sqlite
