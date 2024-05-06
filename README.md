@@ -20,3 +20,4 @@ cuda从入门到入土
 - [002 How to Implement Performance Metrics in CUDA C/C++(√)](https://developer.nvidia.com/blog/how-implement-performance-metrics-cuda-cc/)
 - [003 How to Query Device Properties and Handle Errors in CUDA C/C++](https://developer.nvidia.com/blog/how-query-device-properties-and-handle-errors-cuda-cc/)
 - [004 How to Optimize Data Transfers in CUDA C/C++](https://developer.nvidia.com/blog/how-optimize-data-transfers-cuda-cc/)
+- [005 How to Overlap Data Transfers in CUDA C/C++](https://developer.nvidia.com/blog/how-overlap-data-transfers-cuda-cc/)
