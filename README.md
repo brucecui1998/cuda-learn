@@ -1,6 +1,6 @@
 # cuda-learn
 
-cuda从入门到入土
+cuda从入门到入土，旨在打造全网最全cuda学习资源、路线、讲解、实战项目！
 
 ## TODO
 
@@ -21,3 +21,4 @@ cuda从入门到入土
 - [003 How to Query Device Properties and Handle Errors in CUDA C/C++](https://developer.nvidia.com/blog/how-query-device-properties-and-handle-errors-cuda-cc/)
 - [004 How to Optimize Data Transfers in CUDA C/C++](https://developer.nvidia.com/blog/how-optimize-data-transfers-cuda-cc/)
 - [005 How to Overlap Data Transfers in CUDA C/C++](https://developer.nvidia.com/blog/how-overlap-data-transfers-cuda-cc/)
+- [005加更 CUDA 7 流简化并发](https://developer.nvidia.com/blog/gpu-pro-tip-cuda-7-streams-simplify-concurrency/)

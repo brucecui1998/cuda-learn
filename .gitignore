@@ -4,3 +4,5 @@ bin/
 /Samples/**/*.exe
 /Samples/**/*.exp
 /Samples/**/*.lib
+*.nsys-rep
+.sqlite
